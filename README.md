@@ -17,4 +17,4 @@ $ tcs
 
 ## License
 
-MIT © [rjoydip](https://github.com/rjoydip/cli-starter/blob/master/LICENSE)
+MIT © [rjoydip](https://github.com/rjoydip/typescript-cli-starter/blob/master/LICENSE)
