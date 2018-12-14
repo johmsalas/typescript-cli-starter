@@ -1,4 +1,4 @@
-import { log } from './signal';
+import { log } from './logger';
 
 const pkg = require('../package.json');
 

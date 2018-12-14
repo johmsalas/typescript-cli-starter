@@ -26,10 +26,10 @@ export default {
   plugins: [
     json({
       include: 'src/**',
-      exclude: [ 'node_modules/**']
+      exclude: ['node_modules/**'],
     }),
     typescript({ useTsconfigDeclarationDir: true }),
     terser(),
-    copy({ }),
+    copy({}),
   ],
 };

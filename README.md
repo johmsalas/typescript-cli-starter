@@ -1,4 +1,6 @@
-# cli-starter
+# typescript-cli-starter
+
+[![Build Status](https://travis-ci.com/rjoydip/typescript-cli-starter.svg?branch=master)](https://travis-ci.com/rjoydip/typescript-cli-starter)
 
 > A basic CLI starter using typescript.
 
@@ -6,7 +8,7 @@
 
 ```shell
 $ npm i -g .
-$ cli-starter
+$ tcs
 ```
 
 ## TODO
@@ -15,4 +17,4 @@ $ cli-starter
 
 ## License
 
-MIT © [rjoydip](https://github.com/rjoydip)
+MIT © [rjoydip](https://github.com/rjoydip/cli-starter/blob/master/LICENSE)
