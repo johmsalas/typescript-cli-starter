@@ -27,7 +27,7 @@ export default {
       include: 'src/**',
       exclude: ['node_modules/**'],
     }),
-    typescript({ clean: true }),
+    typescript({ clean: true, exclude: ['*.d.ts', '**/*.d.ts'] }),
     terser(),
   ],
 };
