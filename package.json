@@ -43,6 +43,9 @@
       "path": "node_modules/cz-conventional-changelog"
     }
   },
+  "release": {
+    "branch": "master"
+  },
   "devDependencies": {
     "@types/node": "^10.11.0",
     "@types/signale": "^1.2.0",
