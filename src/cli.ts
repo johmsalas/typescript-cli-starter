@@ -1,7 +1,7 @@
 import { command, parse, version, outputHelp } from 'commander';
 
-import { getPkgVerion, init } from '.';
-import { success } from './logger';
+import { getPkgVerion, init } from './commands';
+import { success } from './utils/logger';
 
 const { argv } = process;
 const _version = getPkgVerion();

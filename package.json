@@ -20,7 +20,6 @@
   "scripts": {
     "lint": "tslint --project tsconfig.json -t codeFrame 'src/**/*.ts' 'test/**/*.ts'",
     "lint:fix": "yarn lint -- --fix",
-    "prebuild": "rimraf dist",
     "postversion": "yarn build",
     "build": "rollup -c rollup.config.ts",
     "start": "rollup -c rollup.config.ts -w",
@@ -54,9 +53,7 @@
     "lint-staged": "^8.1.0",
     "npx": "^10.2.0",
     "prettier": "^1.15.3",
-    "rimraf": "^2.6.3",
     "rollup": "^1.1.0",
-    "rollup-plugin-copy": "^0.2.3",
     "rollup-plugin-json": "^3.1.0",
     "rollup-plugin-terser": "^4.0.2",
     "rollup-plugin-typescript2": "^0.18.1",

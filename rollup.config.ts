@@ -1,6 +1,5 @@
 import typescript from 'rollup-plugin-typescript2';
 import { terser } from 'rollup-plugin-terser';
-import copy from 'rollup-plugin-copy';
 import json from 'rollup-plugin-json';
 
 const pkg = require('./package.json');
@@ -28,8 +27,7 @@ export default {
       include: 'src/**',
       exclude: ['node_modules/**'],
     }),
-    typescript({ useTsconfigDeclarationDir: true }),
+    typescript({ clean: true }),
     terser(),
-    copy({}),
   ],
 };
